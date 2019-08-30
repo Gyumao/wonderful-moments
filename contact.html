@@ -57,12 +57,68 @@
     <!--________________________________________________MAIN_________________________________________-->
 
     <main>
-
+        <div>
+            <section class="info-contact">
+                <h2 class="h2-contact"> CONTACTEZ-NOUS </h2>
+                <h3> Téléphone = (+33)3 10 20 30 40 </h3>
+                <h3> Mobile = (+33)6 10 20 30 40 </h3>
+            </section>
+            <div>
+                <div class="center">
+                    <p class="selection">Sélectionner votre Docteur<br>
+                        <input type="radio" name="medecin" value="docteur"> <label>Dr Mouse / Généraliste</label><br>
+                        <input type="radio" name="medecin" value="docteur"> <label>Dr Mamoura / Cardiologue</label><br>
+                    </p>
+                </div>
+                <form>
+                    <div class="center">
+                        <p>Votre Nom</p>
+                    </div>
+                    <div class="center">
+                        <input type="text" name="name" placeholder="votre Nom" value size='40'></div> <br>
+                    <div class="center">
+                        <p>Votre Email</p>
+                    </div>
+                    <div class="center">
+                        <input type="email" name="email" placeholder="votre Email" value size="40"></div> <br>
+                    <div class="center">
+                        <p>Votre Sujet</p>
+                    </div>
+                    <div class="center">
+                        <input type="text" name="sujet" placeholder="votre Sujet" value size="40"></div> <br>
+                    <div class="center">
+                        <p>Ecrire votre message</p>
+                    </div>
+                    <div class="center">
+                        <textarea name="message" placeholder=" Votre Message" cols="30" rows="10"></textarea></div>
+                    <div class="center  ">
+                        <input type="submit" value="Envoyer">
+                    </div>
+                </form>
+                <div>
+                    <iframe class="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20269.749255791903!2d3.11419007126255!3d50.57659457072092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x34141538b049659f!2sGroupe+VITAMINE+T!5e0!3m2!1sfr!2sfr!4v1565627350701!5m2!1sfr!2sfr"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
     </main>
 
     <!--_______________________________________________FOOTER________________________________________-->
 
     <footer>
+        <div class="contact-footer"><!--mail, twitter and phone-->
+            <figure>
+                <a href="mailto:" title="mon Email">
+                    <img src="Images/mail3.png" alt="mail" width="70" height="70"></a>
+        
+                <a href="https://twitter.com/" title="mon twitter" target="_blank">
+                    <img src="Images/twitter.png" alt="twitter" width="70" height="70"></a>
+        
+                <a href="tel:+33610203040" title="+33610203040">
+                    <img class="phone" alt="logo-phone" src="Images/phone.png" width="70" height="70" /></a>
+            </figure>
+        </div>
         <div>
             <!--menu top-->
             <nav class="nav-top">
