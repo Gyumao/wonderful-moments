@@ -1,0 +1,21 @@
+.h2-contact
+{
+    font-size: 3.5rem;
+    color: rgb(245, 222, 179);
+    text-shadow: 2px 2px black;
+    text-decoration: underline black;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.info-contact
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+    font-weight: bold;
+    color: bisque;
+}
