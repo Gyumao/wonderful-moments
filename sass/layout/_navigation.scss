@@ -30,3 +30,27 @@ header a
 {
     display: none;
 }
+
+footer nav
+{
+    float: right;
+    text-align: center;
+    margin-top: 1.3rem;
+    background-color: black;
+    border: 4px inset rgb(192, 192, 192);
+    width: 100%;
+}
+
+footer nav ul li
+{
+    background-color: black;
+    font-weight: bold;
+    padding: 0 5rem 0 5rem;
+    display: inline-block;
+}
+
+footer a
+{
+    color: rgb(220, 220, 220); 
+    font-size: 20px;
+}

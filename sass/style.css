@@ -6,7 +6,9 @@
 
 body {
   font-family: "Merriweather", Arial, Impact, Serif;
-  background-color: black;
+  background-color: lightpink;
+  background: url("../images/fond.png");
+  background-size: cover;
 }
 
 li {
@@ -38,10 +40,37 @@ header a {
   display: none;
 }
 
+footer nav {
+  float: right;
+  text-align: center;
+  margin-top: 1.3rem;
+  background-color: black;
+  border: 4px inset silver;
+  width: 100%;
+}
+
+footer nav ul li {
+  background-color: black;
+  font-weight: bold;
+  padding: 0 5rem 0 5rem;
+  display: inline-block;
+}
+
+footer a {
+  color: gainsboro;
+  font-size: 20px;
+}
+
+header {
+  /*background: url('../images/banner1.jpg');
+  background-size: cover;*/
+  border-bottom: 7px solid black;
+  height: 350px;
+}
+
 header h1 {
-  padding-top: 9rem;
-  text-shadow: 1px 1px silver;
-  color: pink;
+  text-shadow: 1px 1px black;
+  color: hotpink;
 }
 
 .logo {
@@ -50,8 +79,24 @@ header h1 {
 }
 
 footer {
-  background-color: bisque;
   height: 300px;
+  border-top: 5px solid silver;
+}
+
+footer h2 {
+  text-align: center;
+  margin: 1.3em 0 0 0;
+  text-shadow: 2px 2px black;
+  font-size: 2rem;
+}
+
+.contact-footer {
+  text-align: center;
+}
+
+.p-footer {
+  color: whitesmoke;
+  text-align: center;
 }
 
 .center {

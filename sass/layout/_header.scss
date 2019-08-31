@@ -1,8 +1,16 @@
+header
+{
+    /*background: url('../images/banner1.jpg');
+    background-size: cover;*/
+    border-bottom: 7px solid black;
+    height: 350px;
+}
+
+
 header h1
 {
-    padding-top:  9rem;
-    text-shadow: 1px 1px silver;
-    color: pink;
+    text-shadow: 1px 1px black;
+    color: hotpink;
 }
 
 .logo
