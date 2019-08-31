@@ -1,0 +1,32 @@
+li{
+    list-style: none;
+}
+
+.nav-top
+{
+    float: right;
+    margin-top: 1.5rem; 
+    text-align: center; 
+    background-color: black;
+    border: 4px outset rgb(192, 192, 192);
+    width:100%;
+}
+
+header nav ul li
+{
+    background-color: black;
+    font-weight: bold;
+    padding: 1rem 5rem .9rem 5rem;
+    display: inline-block;  
+}
+
+header a
+{
+    color: rgb(220, 220, 220);
+    font-size: 20px;
+}
+
+.menu-burger 
+{
+    display: none;
+}
