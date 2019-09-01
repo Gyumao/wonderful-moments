@@ -11,11 +11,29 @@
     justify-content: center;
 }
 
+.h2-animation
+{
+    display: block;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+    animation: 10s linear 0s infinite alternate move-eye;
+	padding:0 5px;
+    text-align:center;
+    height: 50px;
+    overflow: hidden;
+}
+
+@keyframes move-eye 
+{ 
+    from { margin-left:-60%; } to { margin-left:60%; }  
+}
+
 .p-accueil
 {
     font-size: 1.7rem;
     font-weight: bold;
-    margin: 100px 0;
+    margin-top: 2%;
     text-shadow: 1px 1px rgb(192, 192, 192);
     text-align: center;
     width: 75%;
