@@ -1,26 +1,20 @@
 footer
 {
     height: 300px;
-    border-top: 5px solid rgb(192, 192, 192);
+    border-top: 3px solid rgba(240,240,240,.7);
     background: url('../images/fond-footer.png') no-repeat;
     background-size: cover;
-}
-
-footer h2
-{
-    text-align: center;
-    margin: 1.3em 0 0 0;
-    text-shadow: 2px 2px black;
-    font-size: 2rem;
 }
 
 .contact-footer
 {
     text-align: center;
+    margin: 3rem 0;
 }
 
 .p-footer
 {
     color: whitesmoke;
     text-align: center;
+    margin: 2.5rem 0;
 }
