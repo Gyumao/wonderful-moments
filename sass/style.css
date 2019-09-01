@@ -81,6 +81,8 @@ header h1 {
 footer {
   height: 300px;
   border-top: 5px solid silver;
+  background: url("../images/fond-footer.png") no-repeat;
+  background-size: cover;
 }
 
 footer h2 {
