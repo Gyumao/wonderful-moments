@@ -170,8 +170,6 @@ footer a {
 }
 
 header {
-  /*background: url('../images/banner1.jpg');
-  background-size: cover;*/
   border-bottom: 7px solid black;
   height: 350px;
 }
@@ -182,7 +180,6 @@ header h1 {
 }
 
 .logo {
-  /*float: left;*/
   padding: 4rem 0 0 4rem;
 }
 
