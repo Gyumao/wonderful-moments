@@ -1,6 +1,6 @@
 footer
 {
-    height: 300px;
+    height: 19rem;
     border-top: 3px solid rgba(240,240,240,.7);
     background: url('../images/fond-footer.png') no-repeat;
     background-size: cover;
@@ -14,7 +14,9 @@ footer
 
 .p-footer
 {
-    color: whitesmoke;
+    color: blakc;
+    text-shadow: 1px 1px hotpink;
+    font-size: 20px;
     text-align: center;
     margin: 2.5rem 0;
 }

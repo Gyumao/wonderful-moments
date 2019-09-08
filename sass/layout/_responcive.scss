@@ -103,28 +103,17 @@
         header h1
         {
             text-align: center;
-            margin-top: 50px;
+            margin-top: 4rem;
         }
 
         .logo
         {
             display: flex;
             justify-content:center;
-            margin: -50px 0 ;
-            padding-bottom: 50px;
+            margin: -4rem 0 ;
+            padding-bottom: 5rem;
         }
 
          /*====================================ACCUEIL-RESPONSIVE=======================*/
 
-        .h2-animation
-        {
-            display: block;
-            font-size: 2.5rem;
-            text-shadow: 1px 1px black;
-            font-weight: bold;
-	        padding:0 5px;
-            text-align:center;
-            height: 50px;
-            overflow: hidden;
-        }
     }

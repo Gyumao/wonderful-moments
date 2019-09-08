@@ -97,50 +97,40 @@ body {
   /*==================================HEADER-RESPONSIVE=========================*/
   header h1 {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 4rem;
   }
 
   .logo {
     display: flex;
     justify-content: center;
-    margin: -50px 0;
-    padding-bottom: 50px;
+    margin: -4rem 0;
+    padding-bottom: 5rem;
   }
 
   /*====================================ACCUEIL-RESPONSIVE=======================*/
-  .h2-animation {
-    display: block;
-    font-size: 2.5rem;
-    text-shadow: 1px 1px black;
-    font-weight: bold;
-    padding: 0 5px;
-    text-align: center;
-    height: 50px;
-    overflow: hidden;
-  }
 }
 li {
   list-style: none;
 }
 
 .nav-top {
-  float: right;
+  float: left;
   margin-top: 1.5rem;
   text-align: center;
   background-color: black;
   border: 4px outset silver;
   width: 100%;
+  height: 100%;
 }
 
 header nav ul li {
-  background-color: black;
   font-weight: bold;
-  padding: 1rem 5rem 0.9rem 5rem;
+  padding: 0.7rem 8% 0.7rem 8%;
   display: inline-block;
 }
 
 header a {
-  color: gainsboro;
+  color: #f560aa;
   font-size: 20px;
 }
 
@@ -149,33 +139,31 @@ header a {
 }
 
 footer nav {
-  float: right;
   text-align: center;
-  margin-top: 1.3rem;
+  margin-top: 5rem;
   background-color: black;
   border: 4px inset silver;
   width: 100%;
 }
 
 footer nav ul li {
-  background-color: black;
   font-weight: bold;
-  padding: 0 5rem 0 5rem;
+  padding: 0.5rem 8% 0.5rem 8%;
   display: inline-block;
 }
 
 footer a {
-  color: gainsboro;
+  color: hotpink;
   font-size: 20px;
 }
 
 header {
-  border-bottom: 7px solid black;
+  /* border-bottom: 7px solid black;*/
   height: 350px;
 }
 
 header h1 {
-  text-shadow: 1px 1px black;
+  text-shadow: 2px 2px black;
   color: hotpink;
 }
 
@@ -184,7 +172,7 @@ header h1 {
 }
 
 footer {
-  height: 300px;
+  height: 19rem;
   border-top: 3px solid rgba(240, 240, 240, 0.7);
   background: url("../images/fond-footer.png") no-repeat;
   background-size: cover;
@@ -196,7 +184,9 @@ footer {
 }
 
 .p-footer {
-  color: whitesmoke;
+  color: blakc;
+  text-shadow: 1px 1px hotpink;
+  font-size: 20px;
   text-align: center;
   margin: 2.5rem 0;
 }
@@ -232,9 +222,10 @@ form input {
 }
 
 .main-image {
-  background: url("../images/fond4.jpg") no-repeat;
-  background-size: 100%;
-  height: 800px;
+  /*background: url('../images/fond4.jpg') no-repeat;*/
+  width: 100%;
+  height: 100%;
+  border-bottom: 3px solid black;
 }
 
 .accueil {
@@ -245,13 +236,14 @@ form input {
 .h2-animation {
   display: block;
   font-size: 2.5rem;
-  text-shadow: 1px 1px black;
+  text-shadow: 2px 2px hotpink;
   font-weight: bold;
   animation: 10s linear 0s infinite alternate move-eye;
   padding: 0 5px;
   text-align: center;
   height: 50px;
   overflow: hidden;
+  margin-top: 2rem;
 }
 
 @keyframes move-eye {
@@ -265,8 +257,8 @@ form input {
 .p-accueil {
   font-size: 1.7rem;
   font-weight: bold;
-  margin-top: 2%;
-  text-shadow: 1px 1px silver;
+  margin: 2rem 0;
+  text-shadow: 1px 2px hotpink;
   text-align: center;
   width: 75%;
   background-color: rgba(240, 240, 240, 0.7);
@@ -278,10 +270,10 @@ form input {
   display: flex;
   justify-content: center;
   font-size: 3.5rem;
-  color: wheat;
+  color: hotpink;
   text-shadow: 2px 2px black;
   text-decoration: underline black;
-  margin-top: 50px;
+  margin-top: 5rem;
   font-weight: bold;
 }
 
@@ -289,14 +281,14 @@ form input {
   display: flex;
   justify-content: center;
   font-size: 1.5rem;
-  margin-bottom: 50px;
+  margin-bottom: 4rem;
   font-weight: bold;
-  color: bisque;
-  text-shadow: 1px 1px black;
+  color: black;
+  text-shadow: 1px 1px hotpink;
 }
 
 .p-contact {
-  text-shadow: 1px 1px black;
+  text-shadow: 1px 1px hotpink;
   width: 50%;
   text-align: center;
 }
@@ -337,6 +329,10 @@ form input {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+}
+
+main div div a img {
+  border: 2px solid black;
 }
 
 /*# sourceMappingURL=style.css.map */
