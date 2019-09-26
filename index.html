@@ -56,15 +56,36 @@
 
     <!--________________________________________________MAIN_________________________________________-->
 
-    <main>
-        <div>
-            <figure>
-                <img src="./images/fond4.jpg" class="main-image" alt="photo accueil">
-            </figure>
+<main>
+    <div class="carrousel">
+        <ul class="slides">
+            <li class="slide">
+                <img src="photoslide-1.jpg" alt="photo slide">
+            </li>
+            <li class="slide">
+                <img src="/photoslide1-1.jpg" alt="photo slide">
+            </li>
+            <li class="slide">
+                <img src="photoslide4-1.jpg" alt="photo slide">
+            </li>
+            <li class="slide">
+                <img src="photoslide5-1.jpg" alt="photo slide">
+            </li>
+        </ul>
+        <input type="radio" name="slides" id="radio-1" checked>
+        <input type="radio" name="slides" id="radio-2">
+        <input type="radio" name="slides" id="radio-3">
+        <input type="radio" name="slides" id="radio-4">
+        <div class="slidesNavigation">
+            <label for="radio-1" id="dotForRadio-1"></label>
+            <label for="radio-2" id="dotForRadio-2"></label>
+            <label for="radio-3" id="dotForRadio-3"></label>
+            <label for="radio-4" id="dotForRadio-4"></label>
         </div>
-            <section  class="accueil">
+    </div>
+        <section  class="accueil">
             <h2 class="h2-animation">Bienvenu à vous</h2>
-            </section>
+        </section>
             <div class="accueil">
                 <p class="p-accueil">
                 Je suis kiara Camille, photographe de portrait à Lesquin, dans le Nord et partout où on m'appelle.
