@@ -57,7 +57,7 @@
   width: 10px;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  border: solid 2px #2980b9;
+  border: solid 2px black;
   font-size: 0;
 }
 
@@ -86,5 +86,5 @@
 .carrousel #radio-2:checked~.slidesNavigation label#dotForRadio-2,
 .carrousel #radio-3:checked~.slidesNavigation label#dotForRadio-3,
 .carrousel #radio-4:checked~.slidesNavigation label#dotForRadio-4 {
-  background: #2980b9;
+  background: black;
 }

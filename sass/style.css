@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+html {
+  border: 10px solid black;
+  border-radius: 5px;
+}
+
 body {
   font-family: "Merriweather", Arial, Impact, Serif;
   background-color: lightpink;
@@ -145,7 +150,7 @@ header a {
 
 footer nav {
   text-align: center;
-  margin-top: 5rem;
+  margin-top: 4rem;
   background-color: black;
   border: 4px inset silver;
   width: 100%;
@@ -193,7 +198,7 @@ footer {
   text-shadow: 1px 1px hotpink;
   font-size: 20px;
   text-align: center;
-  margin: 2.5rem 0;
+  margin-bottom: 2rem;
 }
 
 .carrousel {
@@ -254,7 +259,7 @@ footer {
   width: 10px;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  border: solid 2px #2980b9;
+  border: solid 2px black;
   font-size: 0;
 }
 
@@ -282,7 +287,7 @@ footer {
 .carrousel #radio-2:checked ~ .slidesNavigation label#dotForRadio-2,
 .carrousel #radio-3:checked ~ .slidesNavigation label#dotForRadio-3,
 .carrousel #radio-4:checked ~ .slidesNavigation label#dotForRadio-4 {
-  background: #2980b9;
+  background: black;
 }
 
 .center {

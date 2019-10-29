@@ -1,22 +1,19 @@
-footer
-{
+footer {
     height: 19rem;
-    border-top: 3px solid rgba(240,240,240,.7);
+    border-top: 3px solid rgba(240, 240, 240, .7);
     background: url('../images/fond-footer.png') no-repeat;
     background-size: cover;
 }
 
-.contact-footer
-{
+.contact-footer {
     text-align: center;
     margin: 3rem 0;
 }
 
-.p-footer
-{
+.p-footer {
     color: blakc;
     text-shadow: 1px 1px hotpink;
     font-size: 20px;
     text-align: center;
-    margin: 2.5rem 0;
+    margin-bottom: 2rem;
 }
