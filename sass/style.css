@@ -285,27 +285,6 @@ footer {
   background: #2980b9;
 }
 
-@media (max-width: 796px) {
-  .carrousel {
-    height: 8.5em;
-  }
-}
-@media (max-width: 480px) {
-  .carrousel li p {
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-  }
-
-  .carrousel li q {
-    font-size: 1em;
-  }
-
-  .carrousel li img {
-    width: 2em;
-    margin-left: -1em;
-    margin-right: 0.25em;
-  }
-}
 .center {
   display: flex;
   justify-content: center;
