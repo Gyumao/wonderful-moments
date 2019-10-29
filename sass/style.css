@@ -199,7 +199,7 @@ footer {
 .carrousel {
   text-align: center;
   padding: 4em 0;
-  width: 95%;
+  width: 90%;
   margin: auto;
   position: relative;
   overflow: hidden;
@@ -241,10 +241,12 @@ footer {
   left: 50%;
   margin-left: -52px;
 }
-.carrousel .slidesNavigation .carrousel input {
+
+.carrousel input {
   display: none;
 }
-.carrousel .slidesNavigation .carrousel .slidesNavigation label {
+
+.carrousel .slidesNavigation label {
   float: left;
   margin: 6px;
   display: block;
@@ -255,28 +257,55 @@ footer {
   border: solid 2px #2980b9;
   font-size: 0;
 }
-.carrousel .slidesNavigation #radio-1:checked ~ .slides {
+
+#radio-1:checked ~ .slides {
   transform: translateX(0%);
 }
-.carrousel .slidesNavigation #radio-2:checked ~ .slides {
+
+#radio-2:checked ~ .slides {
   transform: translateX(-25%);
 }
-.carrousel .slidesNavigation #radio-3:checked ~ .slides {
+
+#radio-3:checked ~ .slides {
   transform: translateX(-50%);
 }
-.carrousel .slidesNavigation #radio-4:checked ~ .slides {
+
+#radio-4:checked ~ .slides {
   transform: translateX(-75%);
 }
-.carrousel .slidesNavigation .carrousel .slidesNavigation label:hover {
+
+.carrousel .slidesNavigation label:hover {
   cursor: pointer;
 }
-.carrousel .slidesNavigation .carrousel #radio-1:checked ~ .slidesNavigation label#dotForRadio-1,
-.carrousel .slidesNavigation .carrousel #radio-2:checked ~ .slidesNavigation label#dotForRadio-2,
-.carrousel .slidesNavigation .carrousel #radio-3:checked ~ .slidesNavigation label#dotForRadio-3,
-.carrousel .slidesNavigation .carrousel #radio-4:checked ~ .slidesNavigation label#dotForRadio-4 {
+
+.carrousel #radio-1:checked ~ .slidesNavigation label#dotForRadio-1,
+.carrousel #radio-2:checked ~ .slidesNavigation label#dotForRadio-2,
+.carrousel #radio-3:checked ~ .slidesNavigation label#dotForRadio-3,
+.carrousel #radio-4:checked ~ .slidesNavigation label#dotForRadio-4 {
   background: #2980b9;
 }
 
+@media (max-width: 796px) {
+  .carrousel {
+    height: 8.5em;
+  }
+}
+@media (max-width: 480px) {
+  .carrousel li p {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .carrousel li q {
+    font-size: 1em;
+  }
+
+  .carrousel li img {
+    width: 2em;
+    margin-left: -1em;
+    margin-right: 0.25em;
+  }
+}
 .center {
   display: flex;
   justify-content: center;
